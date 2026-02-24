@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 320 320">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff2d55" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#ff2d55" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" fill="#0a0a0f"/>
+  <rect width="320" height="320" fill="url(#fade)"/>
+  <rect width="320" height="320" fill="url(#glow)"/>
+  <line x1="0" y1="310" x2="320" y2="310" stroke="#ff2d55" stroke-width="3" opacity="0.6"/>
+  <text x="160" y="140" text-anchor="middle" font-size="80">👹</text>
+  <text x="160" y="222" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="22" font-weight="700" opacity="0.9">SBF</text>
+
+</svg>
